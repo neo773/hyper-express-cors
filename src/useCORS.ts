@@ -1,4 +1,4 @@
-import { Request, Response } from 'hyper-express'
+import HyperExpress from 'hyper-express'
 
 interface CORSOptions {
     origin: string
@@ -7,7 +7,7 @@ interface CORSOptions {
 }
 
 const useCORS = (options: CORSOptions) => {
-    return async (request: Request, response: Response) => {
+    return async (request: HyperExpress.Request, response: HyperExpress.Response) => {
         response.header('vary', 'Origin')
         response.header('Access-Control-Allow-Headers', 'content-type')
         response.header('Access-Control-Allow-Methods', 'OPTIONS, POST, GET')
