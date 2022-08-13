@@ -1,0 +1,22 @@
+{
+  "name": "hyper-express-cors",
+  "version": "1.0.0",
+  "description": "Hyper-Express CORS Middleware",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo773/hyper-express-cors.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo773/hyper-express-cors/issues"
+  },
+  "homepage": "https://github.com/neo773/hyper-express-cors#readme",
+  "dependencies": {
+    "hyper-express": "^6.4.5"
+  }
+}
